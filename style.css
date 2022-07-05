@@ -7,6 +7,10 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 span {
     color: tomato;
 }
@@ -20,8 +24,9 @@ section {
 }
 
 .half-width {
-    width: 60% 40%;
+    width: 50%;
     padding: 30px;
+    margin: auto 10px;
 
 }
 
@@ -29,11 +34,16 @@ section {
     width: 90%;
 }
 
-.order-button {
+.button {
     background-image: linear-gradient(orange, tomato);
     text-decoration: none;
     color: white;
     border-radius: 5px;
     padding: 10px 40px;
 
+}
+
+#about-me {
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
 }
