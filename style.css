@@ -19,7 +19,7 @@ h4 {
     font-weight: 200;
 }
 
-section {
+.flex-container {
     display: flex;
 }
 
@@ -46,4 +46,39 @@ section {
 #about-me {
     background-image: url(images/shapes/Frame\ 57.jpg);
     background-repeat: no-repeat;
+}
+
+#menu2 {
+    border-radius: 35px;
+    height: 50%;
+}
+
+#my-recipies {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.recipies {
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    margin: auto;
+    padding: auto;
+    border-radius: 40px;
+
+}
+
+#popularity {
+    display: flex;
+}
+
+.number {
+    padding-left: 100px;
+    padding-right: 100px;
+    box-shadow: 40px gray;
+}
+
+footer {
+    background-color: aqua;
+    text-align: center;
 }
